@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../cadastro/cadastro-style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+    <title>Login</title>
+</head>
+<body>
+  
+    <header class="logo">
+    
+        <a href="./login.html">LOGO</a>
+ 
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="../html/index.html">Home</a></li>
+                <li class=".roboto-light"><a href="../login/login.html">Login</a></li>
+                <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
+                <li><a href="../sobre/sobre.html">Sobre</a></li>
+                <li><a href="../contato/contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <form>
+      <div>
+          <div class="form">
+              <section>
+                  <header><h2>Cadastro</h2></header>
+              <div>
+
+                    <label for="nome" class="label-visual"> Nome: </label><br>
+                    <input type="email" id="nome">   
+  
+              </div>    
+              <div>
+
+                  <label for="mail" class="label-visual"> E-mail: </label><br>
+                  <input type="email" id="mail">   
+
+              </div>
+              
+                  <div class="pass">
+                      <label for="password" class="label-visual">Senha:</label><br>
+                      <input type="password" id="password" name="senha"><br>
+                  </div>
+              <div>
+                      <label for="conf-password" class="label-visual">Confirmar Senha:</label><br>
+                      <input type="password" id="conf-password" name="senha"><br>
+                      <input id=but type="button" value="Cadastrar" onclick="cadastrar()"> 
+                     
+
+              </div>
+            </div>     
+          </section>
+      </div>
+    </form>
+
+    <script src="../main/functions.js"></script>
+</body>
+</html>

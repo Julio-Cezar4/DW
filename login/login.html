@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style-login.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+    <title>Login</title>
+</head>
+<body>
+   
+    <header class="logo">
+    
+        <a href="./login.html">LOGO</a>
+ 
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class=".roboto-light"><a href="#">Login</a></li>
+                <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div>
+        <div>
+            <section>
+                <header><h2>Login</h2></header>
+            
+            <div>
+
+                <label for="mail" class="label-visual"> E-mail: </label><br>
+                <input type="email" id="mail">   
+
+            </div>
+            
+            <div class="pass">
+                <label for="password" class="label-visual">Senha:</label><br>
+                <input type="password" id="password" name="senha"><br>
+                <input type="checkbox" id="check"> <label for="check">Remember-me</label>
+                <input id=but type="button" value="Entrar" onclick="entrar()">
+            </div>
+        </div>
+
+        <script src="../main/functions.js">
+            
+        </script>
+        
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+/* style.css */
+
+/* Reset básico */
+body, h1, h2, ul, li, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(9, 8, 24); /* Fundo escuro para o corpo */
+    color: #e0e0e0; /* Texto em cor clara */
+    line-height: 1.6;
+}
+.mac_results{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(137, 134, 134, 0.27); /* Fundo claro com transparência */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+nav#lista {
+    background-color: #33408b; /* Fundo escuro para a navegação */
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para a navegação */
+    margin-bottom: 20px;
+}
+
+nav#lista header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav#lista header h2 {
+    margin: 0;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #f5f5f5; /* Cor branca para o texto da logo */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-transform: uppercase; /* Transformar texto em maiúsculas */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra de texto para destaque */
+}
+
+nav#lista ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav#lista li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav#lista a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav#lista a:hover {
+    color: #ff9800; /* Cor laranja para o hover */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    text-align: center;
+    color: #ffffff; /* Cor do título mais escura para contraste */
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pesquisado {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+    background-color: #fff; /* Fundo branco para o campo de pesquisa */
+    color: #333; /* Texto escuro para contraste */
+}
+
+#add {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF; /* Cor do botão */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#add:hover {
+    background-color: #0056b3; /* Cor do botão quando hover */
+}
+
+#resultados {
+    margin-top: 20px;
+}
+
+#resultado {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o resultado */
+    color: #333; /* Texto escuro para contraste */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+}
+
+#historico {
+    color: rgb(255, 255, 255); /* Define a cor da fonte como preta */
+    list-style-type: none; /* Remove os marcadores da lista, se desejado */
+    padding: 0; /* Remove o padding, se necessário */
+    margin: 0; /* Remove a margem, se necessário */
+}
+
+#historico-titulo {
+    color: rgb(73, 255, 1); /* Define a cor da fonte como preta */
+}
+
+#userNameDisplay {
+    font-size: 2.3em; /* Ajuste o tamanho da fonte conforme desejado */
+    font-weight: bold; /* Opcional: deixar o texto em negrito */
+    color: rgb(255, 255, 255); /* Opcional: definir a cor da fonte */
+}

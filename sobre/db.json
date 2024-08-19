@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "one",
+      "nome": "root",
+      "email": "admin@sistema.com",
+      "senha": "admin",
+      "history": [
+        "Officially Xerox"
+      ]
+    },
+    {
+      "id": "f13c",
+      "nome": "Mateus",
+      "email": "ma@gmail.com",
+      "senha": "1234",
+      "history": [
+        "Officially Xerox",
+        "Officially Xerox",
+        "Officially Xerox",
+        "Officially Xerox"
+      ]
+    },
+    {
+      "id": "42c7",
+      "nome": "Julio",
+      "email": "j@gmail.com",
+      "senha": "calopsita",
+      "history": [
+      ]
+    }
+  ]
+}

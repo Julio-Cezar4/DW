@@ -1,0 +1,125 @@
+body{
+    background-image: url(./space.jpg);
+    background: rgb(9, 8, 24);
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+
+    
+}
+section{
+    background: rgba(137, 134, 134, 0.27);
+    color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 250px;
+}
+#mail{
+    border-radius: 4px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px rgba(4, 4, 4, 0.633);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    
+}
+.label-visual{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#password{
+    margin-top: 12px;
+    border-radius: 4px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.633);
+    font-size: 20px;
+}
+.pass{
+    margin-top: 12px;
+    color: white;
+}
+header h2{
+    text-align: center;
+}
+.link-cadastro{
+    text-decoration: none;
+}
+#but{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100px;
+    height: 40px;   
+}
+
+
+
+#but:hover{
+    color:black;
+    background: rgb(214, 214, 237);
+    box-shadow: 2px 2px 5px rgba(247, 247, 247, 0.811);
+}
+#check{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+#link-cadastro{
+    margin-left: 175px;
+    text-decoration: none;
+    color: white;
+}
+ /* NAVBAR */
+ .container{
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    width: 700px;
+    height: 200px;
+
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    width: 700px;
+    height: 200px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+    float: left;  
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+
+div ul li:hover{
+    transition: 1s;
+    font-size: 22px;
+    
+}
+.navbar ul li a{
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

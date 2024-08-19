@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Página Principal</title>
+</head>
+<body>
+    <main>
+        <nav id="lista">
+            <header><h2>MA-CV-EN-DO-RS</h2></header>
+            <ul>
+                <li id="userNameDisplay"></li>
+                <!-- Você pode adicionar uma foto aqui -->
+            </ul>
+        </nav>
+        <h1>Find MAC Address Vendors. Now.</h1>
+        <div id="main">
+            <input autofocus id='pesquisado' type="text" placeholder="00-1B-44-11-3A-B7">
+            <input id="add" value="Find" type="button" onclick="add()">
+        </div>
+        <div id="resultados">
+            <div id="resultado"></div>
+            <h2 id="historico-titulo">Histórico de Pesquisas:</h2>
+            <ul id="historico"></ul>
+        </div>
+    </main>
+    <script src="../main/functions.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const userName = localStorage.getItem('userName');
+            if (userName) {
+                document.getElementById('userNameDisplay').textContent = `${userName}`;
+    
+                // Carregar histórico do usuário
+                fetch('http://localhost:3000/users')
+                    .then(response => response.json())
+                    .then(users => {
+                        const user = users.find(u => u.nome === userName);
+                        if (user && user.history) {
+                            const historicoList = document.getElementById('historico');
+                            historicoList.innerHTML = user.history.map(item => `<li>${item}</li>`).join('');
+                        }
+                    });
+            } else {
+                console.error('Nome de usuário não encontrado.');
+            }
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "one",
+      "nome": "root",
+      "email": "admin@sistema.com",
+      "senha": "admin",
+      "history": [
+        "FCCF43-HUIZHOU CITY HUIYANG DISTRICT MEISIQI INDUSTRY DEVELOPMENT CO,.LTD",
+        "FCCF62-IBM Corp"
+      ]
+    },
+    {
+      "id": "f13c",
+      "nome": "mateus",
+      "email": "ma@gmail.com",
+      "senha": "1234",
+      "history": [
+        "FCC2DE-Murata Manufacturing Co., Ltd.",
+        "FCCF62-IBM Corp"
+      ]
+    },
+    {
+      "id": "42c7",
+      "nome": "julio",
+      "email": "j@gmail.com",
+      "senha": "calopsita",
+      "history": [
+        "FCCF43-HUIZHOU CITY HUIYANG DISTRICT MEISIQI INDUSTRY DEVELOPMENT CO,.LTD",
+        "FCCF62-IBM Corp",
+        "FCCF43-HUIZHOU CITY HUIYANG DISTRICT MEISIQI INDUSTRY DEVELOPMENT CO,.LTD",
+        "FCC2DE-Murata Manufacturing Co., Ltd.",
+        "FCC897-zte corporation",
+        "FCCF62-IBM Corp",
+        "FCC2DE-Murata Manufacturing Co., Ltd."
+      ]
+    }
+  ]
+}
